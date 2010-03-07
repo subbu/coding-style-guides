@@ -2,14 +2,13 @@
 
 === Credits
 
-_Mostly copied from http://github.com/chneukirchen/styleguide.git and altered for my personal taste_
+<i>Mostly copied from http://github.com/chneukirchen/styleguide.git and altered for my personal taste</i>
 
-_See General Style Guide before reading this_
+<i>See General Style Guide before reading this</i>
 
-== Formatting:
+== Formatting
 
-* Use RDoc and its conventions for API documentation.  Don't put an
-  empty line between the comment block and the def.
+* Use RDoc and its conventions for API documentation.  Don't put an empty line between the comment block and the def.
 
 == Syntax:
 
@@ -41,10 +40,10 @@ _See General Style Guide before reading this_
     if v = array.grep(/foo/) ...
 
 * Use ||= freely.
-* Use non-OO regexps (they won't make the code better).  Freely use
+* Use non-OO regexps (they won't make the code better).  Freely use \
   =~, $0-9, $~, $` and $' when needed.
 
-== Naming:
+== Naming
 
 * Use snake_case for methods.
 * Use CamelCase for classes and modules.  (Keep acronyms like HTTP,
