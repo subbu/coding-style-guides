@@ -17,14 +17,14 @@
 
 * Always cache the jQ variables. eg.
 
-  var $calendar = $('#calendar');
-  var $someOtherElements = $('.className');
-  $calendar.live('click', ...);
+  * var $calendar = $('#calendar');
+  * var $someOtherElements = $('.className');
+  * $calendar.live('click', ...);
 
 * Use context if available. eg.
 
-  var $calendar = $('#calendar');
-  var $cells = $('td', $calendar);
+  * var $calendar = $('#calendar');
+  * var $cells = $('td', $calendar);
 
 == Chaining
 
