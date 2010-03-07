@@ -1,8 +1,12 @@
-__Mostly copied from github.com/chneukirchen/styleguide.git and altered for my taste__
+= Ruby Style Guide
+
+=== Credits
+
+_Mostly copied from http://github.com/chneukirchen/styleguide.git and altered for my personal taste_
+
+_See General Style Guide before reading this_
 
 == Formatting:
-
-__See General Style Guide before reading this__
 
 * Use RDoc and its conventions for API documentation.  Don't put an
   empty line between the comment block and the def.

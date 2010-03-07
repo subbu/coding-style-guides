@@ -1,4 +1,6 @@
-== JQuery Style Guide and Good Practices
+= JQuery Style Guide and Good Practices
+
+== Mighty $
 
 * Use $(function(){...}) instead of $(document).ready();
 
@@ -9,6 +11,8 @@ $('.class').live('click', function(){
   var e = $(this);
   //...
 });
+
+== General
 
 * Always cache the jQ variables. eg.
 var $calendar = $('#calendar');
