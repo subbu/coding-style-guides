@@ -4,39 +4,39 @@
 
 _Mostly copied from http://github.com/chneukirchen/styleguide.git and altered for my personal taste_
 
-== Formatting:
+== Formatting
 
-    * Use ASCII (or UTF-8, if you have to).
-    * Use an empty line before the return value of a method (unless it
-      only has one line), and an empty line between method definitions.
-    * Don't leave unused code commented. Just delete it. GIT will remember that.
-    * Use empty lines to break up a long method into logical paragraphs.
-    * Keep lines fewer than 80 characters.
-    * Avoid trailing whitespace.
+* Use ASCII (or UTF-8, if you have to).
+* Use an empty line before the return value of a method (unless it
+  only has one line), and an empty line between method definitions.
+* Don't leave unused code commented. Just delete it. GIT will remember that.
+* Use empty lines to break up a long method into logical paragraphs.
+* Keep lines fewer than 80 characters.
+* Avoid trailing whitespace.
 
 == Spacing
 
-    * Use 2 space indent. No tabs. (See #vim settings section)
-    * Use spaces around operators (Arithmetic and Logical)
-    * Use spaces after commas, colons and semicolons
-    * Use spaces around { and before }
-    * No spaces after (, [ and before ], ).
-    * Don't use spaces for default values inside method definitions
+* Use 2 space indent. No tabs. (See #vim settings section)
+* Use spaces around operators (Arithmetic and Logical)
+* Use spaces after commas, colons and semicolons
+* Use spaces around { and before }
+* No spaces after (, [ and before ], ).
+* Don't use spaces for default values inside method definitions
 
-== Comments:
+== Comments
 
-    * Comments longer than a word are capitalized and use punctuation.
-      Use two spaces after periods.
-    * Avoid superfluous comments. Use meaningful method names to avoid comments.
+* Comments longer than a word are capitalized and use punctuation.
+  Use two spaces after periods.
+* Avoid superfluous comments. Use meaningful method names to avoid comments.
 
 == General
 
-    * Avoid long methods.
-    * Avoid long parameter lists.
-    * Keep the code simple.
-    * Don't overdesign.
-    * Don't underdesign.
-    * Don't code for future. Follow YAGNI.
-    * Avoid bugs.
-    * Be consistent.
-    * Use common sense.
+* Avoid long methods.
+* Avoid long parameter lists.
+* Keep the code simple.
+* Don't overdesign.
+* Don't underdesign.
+* Don't code for future. Follow YAGNI.
+* Avoid bugs.
+* Be consistent.
+* Use common sense.

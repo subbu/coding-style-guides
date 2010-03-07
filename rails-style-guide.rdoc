@@ -30,9 +30,9 @@ Leave a blank line between each of the sections above.
 
 == Recommended Plugins
 
-* \<b>Pictures and Attachments</b>: Paperclip
+* <b>Pictures and Attachments</b>: Paperclip
 * *Pagination*: will_paginate
-* *Authentication</b>: Authlogic
+* *Authentication*: Authlogic
 * <b>Package assets</b>: asset_packager
 * <b>Notify exceptions</b>: exception_notification
 * *Stateful*: aasm
