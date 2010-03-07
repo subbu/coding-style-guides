@@ -1,6 +1,8 @@
+__Mostly copied from github.com/chneukirchen/styleguide.git and altered for my taste__
+
 == Formatting:
 
-__See General Style Guide__
+__See General Style Guide before reading this__
 
 * Use RDoc and its conventions for API documentation.  Don't put an
   empty line between the comment block and the def.
