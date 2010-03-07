@@ -1,0 +1,40 @@
+== Rails Style Guide
+
+* Always use Time.zone.now
+* Don't use javascript helpers or jRails or any kind of inline javascript. Use unobtrusive javascript.
+* Stay close to latest Rails
+* Align first arguments for validations, relations (hm, bt, habtm) in the same column.
+
+
+== Model structure
+
+# Model annotations by annotate_models plugin. (This will appear before class definition)
+# include statements
+# Constants
+# Relations: belongs_to, has_many, has_and_belongs_to_many
+# Named scopes
+# attr_ methods like attr_accessor, attr_protected, etc
+# Validations
+# Callbacks
+# Any acts_as_ methods or macro like definitions. eg. has_enumerated, aasm, etc
+# Any singleton methods
+# Class methods
+# Public instance methods
+# Protected methods
+# Private methods
+
+Leave a blank line between each of the sections above.
+
+
+== Recommended Plugins
+
+* Pictures and Attachments: Paperclip
+* Pagination: will_paginate
+* Package assets: asset_packager
+* Notify exceptions: exception_notification
+* Stateful: aasm
+* Annotate models: annotate_models
+* Comments: jackdempsey-acts_as_commentable
+* Unit tests: Rspec
+* Integration testing: Cucumber
+* Testing Code Coverage: Rcov
