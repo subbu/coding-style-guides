@@ -1,6 +1,6 @@
-= jQuery Style Guide and Good Practices
+# jQuery Style Guide and Good Practices
 
-== Mighty $
+## Mighty $
 
 * Use $(function(){...}) instead of $(document).ready();
 
@@ -13,20 +13,20 @@
     //...
   });
 
-== General
+## General
 
 * Always cache the jQ variables. eg.
 
-  * var $calendar = $('#calendar');
-  * var $someOtherElements = $('.className');
-  * $calendar.live('click', ...);
+  var $calendar = $('#calendar');
+  var $someOtherElements = $('.className');
+  $calendar.live('click', ...);
 
 * Use context if available. eg.
 
   * var $calendar = $('#calendar');
   * var $cells = $('td', $calendar);
 
-== Chaining
+## Chaining
 
 * If there are more than 3 events chained in the same call, split it up into separate lines. eg.
 
