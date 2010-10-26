@@ -2,7 +2,7 @@
 
 == General
 
-* Always use Time.zone.now
+* Always use Time.zone.now.
 * Don't use javascript helpers or jRails or any kind of inline javascript. Use unobtrusive javascript.
 * Align first arguments for validations, relations (hm, bt, habtm) in the same column.
 * Stay close to latest Rails. Read http://edgerails.info, http://m.onkey.org and http://yehudakatz.com
