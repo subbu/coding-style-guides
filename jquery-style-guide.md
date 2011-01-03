@@ -44,7 +44,7 @@
   * `var $cells = $('td', $calendar);`
   * or `$calendar.find('.childClassName');`
 
-* Use data-* prefix for all custom attributes. For example, `data-val1='some value'` or `data-some-different-attr='value'`. This is consistent with W3C latest recommendation. Read [an article by John Resig](http://ejohn.org/blog/html-5-data-attributes/).
+* Use data-* prefix for all custom attributes. For example, `data-val1='some value'` or `data-some-different-attr='value'`. This is consistent with W3C's [custom data attributes](http://www.w3.org/html/wg/html5/#custom). Read [John Resig's article](http://ejohn.org/blog/html-5-data-attributes/).
 * Use .live() event handler as much as possible
 
 ## Chaining
