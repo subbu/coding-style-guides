@@ -9,18 +9,18 @@
 * Name reference to the current element as e within a callback. eg.
 
 
-    $('.class').live('click', function(){
+    `$('.class').live('click', function(){`
       var e = $(this);
       //...
-    });
+    `});`
 
 ## General
 
 * Always cache the jQ variables. eg.
 
-    var $calendar = $('#calendar');
-    var $someOtherElements = $('.className');
-    $calendar.live('click', ...);
+    `var $calendar = $('#calendar');`
+    `var $someOtherElements = $('.className');`
+    `$calendar.live('click', ...);`
 
 * Use context if available. eg.
 
