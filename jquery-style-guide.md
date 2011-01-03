@@ -32,6 +32,7 @@
 
       $('.class').doSomething()
       .someThingMore()
-      .doEvenMore();
+      .doEvenMore()
+      .addClass('class');
 
 * If the chaining touches upon more than one element then indent the calls as described in http://benjaminsterling.com/better-jquery-code-2
