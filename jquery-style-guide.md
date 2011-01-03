@@ -8,10 +8,10 @@
 
 * Name reference to the current element as e within a callback. eg.
 
-  $('.class').live('click', function() {
-    var e = $(this);
-    //...;
-  })
+      $('.class').live('click', function() {
+        var e = $(this);
+        //...;
+      })
 
 ## General
 
