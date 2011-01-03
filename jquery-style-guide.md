@@ -30,8 +30,8 @@
 
 * If there are more than 3 events chained in the same call, split it up into separate lines. eg.
 
-    $('.class').doSomething()
-    .someThingMore()
-    .doEvenMore();
+      $('.class').doSomething()
+      .someThingMore()
+      .doEvenMore();
 
 * If the chaining touches upon more than one element then indent the calls as described in http://benjaminsterling.com/better-jquery-code-2
